@@ -34,6 +34,6 @@ def index_kod_cekici():
 	index_file = open("kaynak_kod", "w")
 	index_file.write(kaynak_kod)
 	index_file.close()
+	print index_kod_cekici_mesaj
 
 index_kod_cekici()
-print index_kod_cekici_mesaj
